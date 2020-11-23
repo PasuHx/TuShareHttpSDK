@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuShareHttpSDKLibrary", "TuShareHttpSDKLibrary\TuShareHttpSDKLibrary.csproj", "{FAFA2503-D49D-403B-976B-BFD2E79047C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{E6810CD3-5614-4143-9E78-C85E313CC72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTuShareApiModel", "GenerateTuShareApiModel\GenerateTuShareApiModel.csproj", "{15B9ED2D-A711-44C3-AD28-DDA18964611B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAFA2503-D49D-403B-976B-BFD2E79047C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFA2503-D49D-403B-976B-BFD2E79047C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFA2503-D49D-403B-976B-BFD2E79047C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFA2503-D49D-403B-976B-BFD2E79047C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6810CD3-5614-4143-9E78-C85E313CC72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6810CD3-5614-4143-9E78-C85E313CC72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6810CD3-5614-4143-9E78-C85E313CC72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6810CD3-5614-4143-9E78-C85E313CC72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B9ED2D-A711-44C3-AD28-DDA18964611B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B9ED2D-A711-44C3-AD28-DDA18964611B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B9ED2D-A711-44C3-AD28-DDA18964611B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B9ED2D-A711-44C3-AD28-DDA18964611B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17C509A3-E4D5-4119-AB80-6119285760B8}
+	EndGlobalSection
+EndGlobal
