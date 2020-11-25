@@ -11,6 +11,8 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>TuShare,TuShare SDK,tushare.pro,waditu,pasu</PackageTags>
     <Copyright>Copyright 2020 Pasu Hx</Copyright>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
