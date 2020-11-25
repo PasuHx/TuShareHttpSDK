@@ -103,7 +103,20 @@ namespace TuShareHttpSDKLibrary
                 var p = lstP[fields[i]];
                 if (p != null)
                 {
-                    p.SetValue(m, t[i]);
+                    switch (p.PropertyType.Name)
+                    {
+                        case "Int32":
+                            p.SetValue(m, Convert.ToInt32(t[i]));
+                            break;
+                        case "Single":
+                            p.SetValue(m, Convert.ToSingle(t[i]));
+                            break;
+                        default:
+                            p.SetValue(m, t[i]);
+                            break;
+
+                    }
+                    
                 }
             }
             return m;
